@@ -9,29 +9,29 @@
     <lastBuildDate>Wed, 17 Jun 2020 19:30:08 +1000</lastBuildDate><atom:link href="https://pedroaguirrej.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0 - Fabricación Digital</title>
-      <link>https://pedroaguirrej.github.io/docs/post-1/</link>
+      <link>https://pedroaguirrej.github.io/docs/0-fabricaciondigital/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://pedroaguirrej.github.io/docs/post-1/</guid>
+      <guid>https://pedroaguirrej.github.io/docs/0-fabricaciondigital/</guid>
       <description>Documentación del encargo 0 - Fabricación Digital</description>
     </item>
     
     <item>
-      <title>3 - Mecanizado 2.5</title>
-      <link>https://pedroaguirrej.github.io/docs/post-3/</link>
+      <title>1 - Planimetrías</title>
+      <link>https://pedroaguirrej.github.io/docs/1-planimetrias/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://pedroaguirrej.github.io/docs/post-3/</guid>
-      <description>Documentación del encargo 3 - Fabricación Digital</description>
+      <guid>https://pedroaguirrej.github.io/docs/1-planimetrias/</guid>
+      <description>Documentación del encargo 1 - Fabricación Digital</description>
     </item>
     
     <item>
-      <title>Plywood chair</title>
-      <link>https://pedroaguirrej.github.io/docs/plywood-chair/</link>
+      <title>3 - Mecanizado 2.5</title>
+      <link>https://pedroaguirrej.github.io/docs/3-mecanizado2.5/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://pedroaguirrej.github.io/docs/plywood-chair/</guid>
-      <description>Encargo 01 silla Plywood</description>
+      <guid>https://pedroaguirrej.github.io/docs/3-mecanizado2.5/</guid>
+      <description>Documentación del encargo 3 - Fabricación Digital</description>
     </item>
     
     <item>
@@ -44,12 +44,12 @@
     </item>
     
     <item>
-      <title>CNC</title>
-      <link>https://pedroaguirrej.github.io/docs/cnc/</link>
+      <title>2 - Mecanizado CNC</title>
+      <link>https://pedroaguirrej.github.io/docs/2-mecanizadocnc/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://pedroaguirrej.github.io/docs/cnc/</guid>
-      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+      <guid>https://pedroaguirrej.github.io/docs/2-mecanizadocnc/</guid>
+      <description>Documentación del encargo 2 - Fabricación Digital</description>
     </item>
     
     <item>
