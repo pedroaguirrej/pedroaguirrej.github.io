@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate><atom:link href="https://pedroaguirrej.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0 - Fabricación Digital</title>
-      <link>https://pedroaguirrej.github.io/docs/0-fabricaciondigital/</link>
+      <link>https://pedroaguirrej.github.io/docs/0-fabricaciondigital-copy/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://pedroaguirrej.github.io/docs/0-fabricaciondigital/</guid>
+      <guid>https://pedroaguirrej.github.io/docs/0-fabricaciondigital-copy/</guid>
       <description>Documentación del encargo 0 - Fabricación Digital</description>
     </item>
     
@@ -59,6 +59,15 @@
       
       <guid>https://pedroaguirrej.github.io/docs/markdown/</guid>
       <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+    <item>
+      <title>Entrega 1 - Materiales Ecológicos</title>
+      <link>https://pedroaguirrej.github.io/docs/0-fabricaciondigital/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://pedroaguirrej.github.io/docs/0-fabricaciondigital/</guid>
+      <description>Documentación de entrega 1- Fabricación Digital</description>
     </item>
     
   </channel>

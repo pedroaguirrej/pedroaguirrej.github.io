@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pedroaguirrej.github.io/docs/0-fabricaciondigital/</loc>
+    <loc>https://pedroaguirrej.github.io/docs/0-fabricaciondigital-copy/</loc>
     <lastmod>2020-06-17T19:30:08+10:00</lastmod>
   </url><url>
     <loc>https://pedroaguirrej.github.io/docs/1-planimetrias/</loc>
@@ -21,6 +21,9 @@
     <lastmod>2020-06-17T19:30:08+10:00</lastmod>
   </url><url>
     <loc>https://pedroaguirrej.github.io/docs/markdown/</loc>
+    <lastmod>2020-06-17T19:30:08+10:00</lastmod>
+  </url><url>
+    <loc>https://pedroaguirrej.github.io/docs/0-fabricaciondigital/</loc>
     <lastmod>2020-06-17T19:30:08+10:00</lastmod>
   </url><url>
     <loc>https://pedroaguirrej.github.io/</loc>
