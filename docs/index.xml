@@ -26,6 +26,15 @@
     </item>
     
     <item>
+      <title>2 - Mecanizado CNC</title>
+      <link>https://pedroaguirrej.github.io/docs/2-mecanizadocnc/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://pedroaguirrej.github.io/docs/2-mecanizadocnc/</guid>
+      <description>Documentación del encargo 2 - Fabricación Digital</description>
+    </item>
+    
+    <item>
       <title>3 - Mecanizado 2.5</title>
       <link>https://pedroaguirrej.github.io/docs/3-mecanizado2.5/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
@@ -35,21 +44,21 @@
     </item>
     
     <item>
+      <title>Entrega 1 - Materiales Ecológicos</title>
+      <link>https://pedroaguirrej.github.io/docs/entrega-1-materiales/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://pedroaguirrej.github.io/docs/entrega-1-materiales/</guid>
+      <description>Documentación de entrega 1- Fabricación Digital</description>
+    </item>
+    
+    <item>
       <title>Ejemplo Shortcodes</title>
       <link>https://pedroaguirrej.github.io/docs/ejemplo/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://pedroaguirrej.github.io/docs/ejemplo/</guid>
       <description>Uso de los Shortcodes para agregar contenido en el sitio de documentación.</description>
-    </item>
-    
-    <item>
-      <title>2 - Mecanizado CNC</title>
-      <link>https://pedroaguirrej.github.io/docs/2-mecanizadocnc/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://pedroaguirrej.github.io/docs/2-mecanizadocnc/</guid>
-      <description>Documentación del encargo 2 - Fabricación Digital</description>
     </item>
     
     <item>
@@ -63,11 +72,11 @@
     
     <item>
       <title>Entrega 1 - Materiales Ecológicos</title>
-      <link>https://pedroaguirrej.github.io/docs/0-fabricaciondigital/</link>
+      <link>https://pedroaguirrej.github.io/docs/entrega-2-materiales/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://pedroaguirrej.github.io/docs/0-fabricaciondigital/</guid>
-      <description>Documentación de entrega 1- Fabricación Digital</description>
+      <guid>https://pedroaguirrej.github.io/docs/entrega-2-materiales/</guid>
+      <description>Documentación de entrega 2- Fabricación Digital</description>
     </item>
     
   </channel>
