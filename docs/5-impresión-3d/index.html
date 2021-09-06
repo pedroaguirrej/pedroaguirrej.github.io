@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>2 - Mecanizado CNC - Pedro Aguirre - Taller Fabricación 2021</title>
+  <title>4 - impresión 3D - Pedro Aguirre - Taller Fabricación 2021</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://pedroaguirrej.github.io/favicon.png">
@@ -98,7 +98,7 @@
       <a href="https://pedroaguirrej.github.io/docs/1-planimetrias/">1 - Planimetrías</a>
     </li>
     
-    <li class="active ">
+    <li class="">
       <a href="https://pedroaguirrej.github.io/docs/2-mecanizadocnc/">2 - Mecanizado CNC</a>
     </li>
     
@@ -114,7 +114,7 @@
       <a href="https://pedroaguirrej.github.io/docs/entrega-1-materiales/">Entrega 1 - Materiales Ecológicos</a>
     </li>
     
-    <li class="">
+    <li class="active ">
       <a href="https://pedroaguirrej.github.io/docs/5-impresi%C3%B3n-3d/">4 - impresión 3D</a>
     </li>
     
@@ -145,190 +145,138 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">2 - Mecanizado CNC</h1>
+<h1 class="title">4 - impresión 3D</h1>
 <div class="content ">
-  <!-- raw HTML omitted -->
-<h1 id="a-nametop"><!-- raw HTML omitted --></h1>
-<ul>
-<li><a href="##%C2%BFQu%C3%A9_es_CNC?">¿Qué es CNC?</a></li>
-<li><a href="##%C2%BFQu%C3%A9_se_puede_cortar_con_una_m%C3%A1quina_CNC?">¿Qué se puede cortar con una máquina CNC</a></li>
-<li><a href="##Silla_Fresia">Silla Fresia</a></li>
-<li><a href="###Paso_1">Paso 1</a></li>
-<li><a href="###Paso_2">Paso 2</a></li>
-<li><a href="###Paso_3">Paso 3</a></li>
-<li><a href="###Paso_4">Paso 4</a></li>
-<li><a href="##Silla_Fresia_en_Fusion_360">Silla Fresia en Fusion 360</a></li>
-<li><a href="##Algunas_fotos_del_proceso_real">Fotos proceso real</a></li>
-</ul>
-<h2 id="qué-es-cnc">¿Qué es CNC?</h2>
-<p>El CNC o control numérico por computadora es un sistema que permite el control de la posición de un elemento montado en el interior de una máquina-herramienta mediante un software especialmente diseñado para ello.
- 
-Su funcionamiento se basa en el posicionamiento sobre los ejes X, Y, Z. Gracias a lo cual, a una misma pieza se la puede taladrar, cortar, roscar, fresar, o desbastar en todos sus planos de forma totalmente automática.</p>
-<p><img src="/img/20401.jpg" alt="máquina_CNC"></p>
-<h2 id="qué-se-puede-cortar-con-una-máquina-cnc">¿Qué se puede cortar con una máquina CNC?</h2>
-<p>Entre los materiales más populares para cortar y grabar con un router CNC encontramos:</p>
-<ul>
-<li>Maderas y MDF</li>
-<li>Acrílico, plexiglás y otros plásticos</li>
-<li>aluminio, latón y otros metales</li>
-</ul>
+  <h2 id="cura">CURA</h2>
+<p>CURA es una aplicación para computadores que se encarga específicamente de la interacción con las impresoras 3D, es open source y el formato compatible de archivos es .STL.</p>
 <hr>
-<h2 id="silla-fresia">Silla Fresia</h2>
-<h3 id="resultado-final">Resultado final</h3>
-<p><img src="/img/sillafresia.png" alt="silla_fresia"></p>
-<h3 id="paso-1">Paso 1</h3>
-<p>En el modo &ldquo;design&rdquo;, dentro de la pestaña &ldquo;sólido&rdquo; cramos un sketch de medidas 2200 x 2200, lo que corresponde a media planca, luego le damos el comando &ldquo;extrude&rdquo; y lo aplicamos en el eje Z por 15 mm.</p>
-<p><img src="/img/paso1.png" alt="paso_1"></p>
-<h3 id="paso-2">Paso 2</h3>
-<p>Luego, situamos cada pieza de la silla en la &ldquo;plancha&rdquo;, primero elegimos las piezas a ubicar, usamos el comando &ldquo;move/copy&rdquo;, arrastramos para generar una copia, no podemos olvidar darle click a la casilla &ldquo;copy&rdquo;, después, para situarlas dentro de la &ldquo;plancha&rdquo;, dentro de la pestaña &ldquo;sólido&rdquo; hacemos click en la sub pestaña &ldquo;modificar&rdquo; y usamos la opción que dice &ldquo;alinear&rdquo; preocupándonos de alinear cada cara inferior con el plano que se genera entre los ejes X e Y. Esto se debe hacer de forma que todas las caras de las partes de la silla por donde debe pasar la fresa después para hacerles sacados deben quedar mirando hacia la misma cara.</p>
-<p><img src="/img/paso2.png" alt="paso_2"></p>
-<p><img src="/img/paso2.0.png" alt="paso_2.0"></p>
-<h3 id="paso-3">Paso 3</h3>
-<p>Luego de tener todos las piezas en la &ldquo;plancha&rdquo;, pasamos al modo &ldquo;fabricación&rdquo; donde podemos simular los cortes que se harán con la fresa de 6mm flat endmill, es importante ajustar a 3mm la profundidad a la que corta la fresia, lo que resulta en múltiples pasadas por el mismo punto.</p>
-<div>
-    <video 
-    width="100%" 
-    height="450" 
-    autoplay muted loop controls preload>
-    <source src="/img/video1.mov"  type="video/mp4">
-    </video>
-</div>
-<h3 id="paso-4">Paso 4</h3>
-<p>Repetimos el mismo paso anterior pero ahora con los contornos de cada pieza.
-<div>
-    <video 
-    width="100%" 
-    height="450" 
-    autoplay muted loop controls preload>
-    <source src="/img/video2.mov"  type="video/mp4">
-    </video>
-</div></p>
+<p>Lo primero, es descargar CURA desde el sitio web, la aplicación es gratuita y no es necesario registrarse para poder usarla, luego. Una vez que hayamos descargado la aplicación debemos agregar la impresora que en este caso es la &ldquo;Creality Ender 3&rdquo;.</p>
+<p><img src="/img/galeria12/910.png" alt="Imagen Simple"></p>
+<p><img src="/img/galeria12/911.png" alt="Imagen Simple"></p>
+<p>La configuración de la impresora viene preseteada por lo que no es necesario modificar nada.</p>
+<p><img src="/img/galeria12/912.png" alt="Imagen Simple"></p>
+<p>Una vez instalada la impresora en el sistema, podemos elegir el material y el nozzle size, enn este caso el material es un PLA morado.</p>
+<p><img src="/img/galeria12/913.png" alt="Imagen Simple"></p>
+<p>Mi objeto para la prueba fue el macetero que desarrollamos para el examen final y a continuación dejaré una foto de éste.</p>
+<p><img src="/img/galeria12/914.png" alt="Imagen Simple"></p>
+<p>Luego abrimos el archivo exportado desde Slicer, es importante que esté en formato STL o sino, no va a funcionar.</p>
+<p><img src="/img/galeria12/915.png" alt="Imagen Simple"></p>
+<p>Finalmente, modificamos la altura de las capas,la velocidad y la temperatura a la que se derrite el plástico. A mayor altura de las capas se tienen que hacer menos pasadas y se hace más rápida la impresión, también influye el tamaño del nozzle, mientras más grande es éste menor es la calidad del producto final y menos tiempo tarda la impresión.</p>
+<p><img src="/img/galeria12/916.png" alt="Imagen Simple"></p>
 <hr>
-<h2 id="silla-fresia-en-fusion-360">Silla Fresia en Fusion 360</h2>
-<div>
-    <iframe 
-    src='https://a360.co/3elD7UR'
-    width="100%" 
-    height="450" 
-    allowfullscreen="true" 
-    webkitallowfullscreen="true" 
-    mozallowfullscreen="true"  
-    frameborder="0">
-    </iframe>    
-</div>
-<hr>
-<h2 id="algunas-fotos-del-proceso-real">Algunas fotos del proceso real</h2>
-<p><img src="/img/galeria5/Imagen_1.jpg" alt="paso_1"></p>
-<p><img src="/img/galeria5/Imagen_2.jpg" alt="paso_1"></p>
-<p><img src="/img/galeria5/Imagen_3.jpg" alt="paso_1"></p>
-<p><img src="/img/galeria5/Imagen_4.jpg" alt="paso_1"></p>
-<p><img src="/img/galeria5/Imagen_5.jpg" alt="paso_1"></p>
-<p><img src="/img/galeria5/Imagen_6.jpg" alt="paso_1"></p>
-<p><img src="/img/galeria5/Imagen_7.jpg" alt="paso_1"></p>
-<p><img src="/img/galeria5/Imagen_8.jpg" alt="paso_1"></p>
-<p><img src="/img/galeria5/Imagen_9.jpg" alt="paso_1"></p>
-<hr>
+<h2 id="galería-de-fotos">Galería de fotos</h2>
 <p>
 <link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
 
 <div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria5//Imagen_1.jpg');" >
-				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria5//Imagen_1.jpg" alt="Imagen 1" />
+				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria12//910.png');" >
+				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria12//910.png" alt="910th" />
 				    </div>
 			      <figcaption>
-		          <p>Imagen 1</p>
+		          <p>910th</p>
 			      </figcaption>
-				    <a href="https://pedroaguirrej.github.io//img/galeria5//Imagen_1.jpg" itemprop="contentUrl"></a>
+				    <a href="https://pedroaguirrej.github.io//img/galeria12//910.png" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria5//Imagen_2.jpg');" >
-				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria5//Imagen_2.jpg" alt="Imagen 2" />
+				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria12//911.png');" >
+				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria12//911.png" alt="911th" />
 				    </div>
 			      <figcaption>
-		          <p>Imagen 2</p>
+		          <p>911th</p>
 			      </figcaption>
-				    <a href="https://pedroaguirrej.github.io//img/galeria5//Imagen_2.jpg" itemprop="contentUrl"></a>
+				    <a href="https://pedroaguirrej.github.io//img/galeria12//911.png" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria5//Imagen_3.jpg');" >
-				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria5//Imagen_3.jpg" alt="Imagen 3" />
+				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria12//912.png');" >
+				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria12//912.png" alt="912th" />
 				    </div>
 			      <figcaption>
-		          <p>Imagen 3</p>
+		          <p>912th</p>
 			      </figcaption>
-				    <a href="https://pedroaguirrej.github.io//img/galeria5//Imagen_3.jpg" itemprop="contentUrl"></a>
+				    <a href="https://pedroaguirrej.github.io//img/galeria12//912.png" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria5//Imagen_4.jpg');" >
-				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria5//Imagen_4.jpg" alt="Imagen 4" />
+				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria12//913.png');" >
+				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria12//913.png" alt="913th" />
 				    </div>
 			      <figcaption>
-		          <p>Imagen 4</p>
+		          <p>913th</p>
 			      </figcaption>
-				    <a href="https://pedroaguirrej.github.io//img/galeria5//Imagen_4.jpg" itemprop="contentUrl"></a>
+				    <a href="https://pedroaguirrej.github.io//img/galeria12//913.png" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria5//Imagen_5.jpg');" >
-				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria5//Imagen_5.jpg" alt="Imagen 5" />
+				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria12//914.png');" >
+				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria12//914.png" alt="914th" />
 				    </div>
 			      <figcaption>
-		          <p>Imagen 5</p>
+		          <p>914th</p>
 			      </figcaption>
-				    <a href="https://pedroaguirrej.github.io//img/galeria5//Imagen_5.jpg" itemprop="contentUrl"></a>
+				    <a href="https://pedroaguirrej.github.io//img/galeria12//914.png" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria5//Imagen_6.jpg');" >
-				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria5//Imagen_6.jpg" alt="Imagen 6" />
+				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria12//915.png');" >
+				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria12//915.png" alt="915th" />
 				    </div>
 			      <figcaption>
-		          <p>Imagen 6</p>
+		          <p>915th</p>
 			      </figcaption>
-				    <a href="https://pedroaguirrej.github.io//img/galeria5//Imagen_6.jpg" itemprop="contentUrl"></a>
+				    <a href="https://pedroaguirrej.github.io//img/galeria12//915.png" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria5//Imagen_7.jpg');" >
-				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria5//Imagen_7.jpg" alt="Imagen 7" />
+				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria12//916.png');" >
+				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria12//916.png" alt="916th" />
 				    </div>
 			      <figcaption>
-		          <p>Imagen 7</p>
+		          <p>916th</p>
 			      </figcaption>
-				    <a href="https://pedroaguirrej.github.io//img/galeria5//Imagen_7.jpg" itemprop="contentUrl"></a>
+				    <a href="https://pedroaguirrej.github.io//img/galeria12//916.png" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria5//Imagen_8.jpg');" >
-				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria5//Imagen_8.jpg" alt="Imagen 8" />
+				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria12//917.png');" >
+				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria12//917.png" alt="917th" />
 				    </div>
 			      <figcaption>
-		          <p>Imagen 8</p>
+		          <p>917th</p>
 			      </figcaption>
-				    <a href="https://pedroaguirrej.github.io//img/galeria5//Imagen_8.jpg" itemprop="contentUrl"></a>
+				    <a href="https://pedroaguirrej.github.io//img/galeria12//917.png" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 				<div class="box">
 				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria5//Imagen_9.jpg');" >
-				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria5//Imagen_9.jpg" alt="Imagen 9" />
+				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria12//918.png');" >
+				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria12//918.png" alt="918th" />
 				    </div>
 			      <figcaption>
-		          <p>Imagen 9</p>
+		          <p>918th</p>
 			      </figcaption>
-				    <a href="https://pedroaguirrej.github.io//img/galeria5//Imagen_9.jpg" itemprop="contentUrl"></a>
+				    <a href="https://pedroaguirrej.github.io//img/galeria12//918.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://pedroaguirrej.github.io//img/galeria12//919.png');" >
+				      <img itemprop="thumbnail" src="https://pedroaguirrej.github.io//img/galeria12//919.png" alt="919th" />
+				    </div>
+			      <figcaption>
+		          <p>919th</p>
+			      </figcaption>
+				    <a href="https://pedroaguirrej.github.io//img/galeria12//919.png" itemprop="contentUrl"></a>
 				  </figure>
 				</div>
 </div>
@@ -394,6 +342,24 @@ Su funcionamiento se basa en el posicionamiento sobre los ejes X, Y, Z. Gracias 
 </div>
 </p>
 <hr>
+<h2 id="fusion-del-molde-utilizado">Fusion del molde utilizado</h2>
+<div>
+    <iframe 
+    src='https://a360.co/38E6YVa'
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
+<hr>
+<h2 id="nozzle">Nozzle</h2>
+<p><img src="/img/galeria12/917.png" alt="Imagen Simple"></p>
+<p>Los nozzles varían en tamañno desde los 0,2mm hasta 1mm, esto se relaciona directamente con la calidad y el tiemo que tarda la impresión, a mayor calidad, mayor tiempo, por lo general desde el 0,2mm - 0,4mm se considera que el resultado es de alta calidad y desde 0,5mm-1mm la calidad es menor.</p>
+<p>Optimización del Noozle en Impresoras FDM
+Los Nozzles tienen medidas desde 0,2 a 1.0 mm, los cuales implican que uno desde un cierto punto arriesga calidad por menos tiempo de impresión y viceversa uno prioriza calidad por mayor tiempo de impresión, este punto de inflexión va de 0,4, o sea de 0,4 a 0,2 nosotros estamos buscando y obteniendo más calidad y más demora en el proceso de fabricación, por ende al contrario si vamos hacia arriba, de 0,5 a 1.0 mm arriesgas calidad y menos tiempo de impresión.</p>
 
 </div>
 </div>
